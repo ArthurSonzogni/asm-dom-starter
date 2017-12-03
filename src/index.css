@@ -1,0 +1,53 @@
+/* --- Style of the root -----------------------------------------------------*/
+.root {
+  background-color:white;
+  margin:auto;
+  max-width:600px;
+  padding:20px;
+}
+
+/* --- Style of the buttons --------------------------------------------------*/
+.button {
+  border:solid 5px black;
+  cursor:pointer;
+  display:inline-block;
+  padding:20px;
+  text-decoration:none;
+  user-select:none;
+  font-size:20px;
+}
+
+.button:hover {
+  background-color:gray;
+}
+
+.button:first-child {
+  border-radius:30px 0 0 30px;
+  border-right:solid 1px black;
+}
+
+.button:last-child {
+  border-left:solid 1px black;
+  border-radius:0 30px 30px 0;
+}
+
+.button_container {
+  margin:auto;
+}
+
+/* --- Style of the variable display------------------------------------------*/
+.display_i {
+  background-color:gray;
+  margin:0;
+  margin-top:20px;
+  padding:20px;
+}
+
+/* --- Style of the action list ----------------------------------------------*/
+.action_list {
+  background-color:#222;
+  color:#AAA;
+  margin:0;
+  padding:20px;
+}
+
